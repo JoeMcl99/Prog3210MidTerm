@@ -74,6 +74,10 @@ public class fragmentEditText extends Fragment {
         }
     }
 
+    public interface TopListener{
+        public void submit(String name, String Comment);
+    }
+
     @Override
     public void onAttach(Context context) {
         super.onAttach(context);
@@ -105,4 +109,8 @@ public class fragmentEditText extends Fragment {
         // TODO: Update argument type and name
         void onFragmentInteraction(Uri uri);
     }
+
+
+
+
 }
