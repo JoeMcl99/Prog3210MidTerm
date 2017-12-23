@@ -10,15 +10,15 @@
     <fragment
         android:id="@+id/fragment"
         android:name="com.example.jmclaughlin6572.midterm.MemeFragment"
-        android:layout_width="match_parent"
-        android:layout_height="250dp" />
+        android:layout_width="300dp"
+        android:layout_height="match_parent" />
 
     <fragment
         android:id="@+id/fragment2"
         android:name="com.example.jmclaughlin6572.midterm.fragmentEditText"
-        android:layout_width="match_parent"
-        android:layout_height="250dp"
-        android:layout_below="@+id/fragment"
-        android:layout_alignParentStart="true" />
+        android:layout_width="290dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true" />
 
 </RelativeLayout>

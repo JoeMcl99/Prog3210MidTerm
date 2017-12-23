@@ -10,12 +10,12 @@
         android:id="@+id/btnAddComment"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="57dp"
-        android:layout_marginTop="157dp"
+        android:layout_marginStart="42dp"
         android:onClick="gotoSubActivicty"
-        android:text="Add Comments" />
+        android:text="Add Comments"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="23dp" />
 
     <Button
         android:id="@+id/btnContact"
@@ -26,4 +26,11 @@
         android:layout_toEndOf="@+id/btnAddComment"
         android:onClick="implicitIntent"
         android:text="Contact Us" />
+
+    <ListView
+        android:id="@+id/lstNames"
+        android:layout_width="match_parent"
+        android:layout_height="425dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true" />
 </RelativeLayout>
